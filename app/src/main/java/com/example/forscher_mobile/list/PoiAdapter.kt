@@ -1,14 +1,21 @@
-package com.example.forscher_mobile
+package com.example.forscher_mobile.list
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.forscher_mobile.R
+import com.example.forscher_mobile.model.PoiItemX
 import com.squareup.picasso.Picasso
 
-class poiAdapter (private val poiList: ArrayList<PoiItemX>
+
+class poiAdapter (
+    private val poiList: ArrayList<PoiItemX>,
+    private val onItemClicked: (PoiItemX) -> Unit
+
 ) : RecyclerView.Adapter<poiAdapter.ViewHolder>() {
 
 
@@ -20,6 +27,7 @@ class poiAdapter (private val poiList: ArrayList<PoiItemX>
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val poi = poiList[position]
+        holder.itemView.setOnClickListener {onItemClicked(poiList[position])}
         holder.bind(poi)
 
     }
@@ -33,7 +41,7 @@ class poiAdapter (private val poiList: ArrayList<PoiItemX>
         private var rankingTextView: TextView= itemview.findViewById(R.id.point_text_view)
         private var desciptionTextView: TextView= itemview.findViewById(R.id.descripcion_text_view)
         private var pictureImageView: ImageView = itemview.findViewById(R.id.picture_image_view)
-        fun bind(poi:PoiItemX){
+        fun bind(poi: PoiItemX){
             nameTextView.text=poi.name
             desciptionTextView.text=poi.description
             rankingTextView.text=poi.ranking.toString()
