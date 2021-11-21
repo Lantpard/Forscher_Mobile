@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 
+
 class poiAdapter (private val poiList: ArrayList<PoiItemX>
 ) : RecyclerView.Adapter<poiAdapter.ViewHolder>() {
 

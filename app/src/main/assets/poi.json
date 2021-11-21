@@ -1,0 +1,32 @@
+[
+{
+    "name" : "Casa Terracota",
+    "ranking" : 5.0,
+    "description" : "Es un proyecto de construcción que utiliza los cuatro elementos, tierra, aire, agua y fuego, convirtiendo la tierra cocida en arquitectura.",
+    "urlPicture" : "https://imagenescityexpress.scdn6.secure.raxcdn.com/sites/default/files/2018-04/casa-terracota-villa-leyva-bogota.jpg"
+},
+{
+    "name" : "Viñedo Ain Karim",
+    "ranking" : 4.8,
+    "description" : "Es un viñedo en el trópico, ubicado a una altura de 2100 msnm, en una región elegida por tener el conjunto ideal de factores para el cultivo de vid.",
+    "urlPicture" : "https://i0.wp.com/revistadiners.com.co/wp-content/uploads/2021/09/vinedo_villa_de_leyva_.jpg"
+},
+{
+    "name" : "Desierto",
+    "ranking" : 4.0,
+    "description" : "Se encuentran amonitas de la prehistoria al levantar pequeñas rocas del suelo, también se hallan en la zona los célebres Pozos Azules, el Museo del Fósil, el Centro de Investigaciones Paleontológicas, la granja de avestruces y los sinuosos y emocionantes caminos de las cuatrimotos.",
+    "urlPicture" : "https://chipviajero.com/wp-content/uploads/2017/02/C%C3%B3mo-Llegar-A-Las-C%C3%A1rcavas-De-Villa-De-Leyva-Chip-Viajero-1.jpg"
+},
+{
+    "name" : "Pozos Azules",
+    "ranking" : 4.5,
+    "description" : "Es una maravilla turística, ubicada en la vereda de Sopotá, muy cerca del casco urbano del municipio (km 3 vía al fósil).",
+    "urlPicture" : "https://4.bp.blogspot.com/-MpItVQuBOqU/WJjpqcL7tLI/AAAAAAAACXc/ud0Ce_D3UskYDNIPyWgwxMgIAlBLuXljgCEw/s1600/villa4.jpg"
+},
+{
+    "name" : "Museo Paleontologico",
+    "ranking" : 3.2,
+    "description" : "Promueve el inventario, la identificación, la conservación y las alternativas de uso sostenible de restos fósiles que hacen parte del patrimonio paleontológico y cultural de Colombia. Tiene como objetivo ser un centro de referencia académica para adelantar y apoyar programas de investigación y docencia en temas de paleontología y conservación del mencionado patrimonio.",
+    "urlPicture" : "https://mibellavilla.com/wp-content/uploads/2018/10/paleontologico06-310x186.jpg"
+}
+]
