@@ -17,6 +17,8 @@ data class PoiItemX(
     val general: String,
     @SerializedName("location")
     val location: String,
+    @SerializedName("coordinates")
+    val coordinates: String,
     @SerializedName("temperature")
     val temperature: String,
     @SerializedName("recommendations")

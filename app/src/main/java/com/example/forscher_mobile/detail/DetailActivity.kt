@@ -22,6 +22,7 @@ class DetailActivity : AppCompatActivity() {
             nameTextView.text=poi.name
             generalTextView.text=poi.general
             locationTextView.text=poi.location
+            coordinatesTextView.text=poi.coordinates
             temperatureTextView.text=poi.temperature
             recommendationsTextView.text=poi.recommendations
             Picasso.get().load(poi.urlPicture).into(pictureImageView)
