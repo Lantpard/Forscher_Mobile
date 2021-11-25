@@ -3,13 +3,12 @@ package com.example.forscher_mobile.list
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
 import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.forscher_mobile.R
-import com.example.model.PoiItemX
+import com.example.forscher_mobile.model.PoiItemX
 import com.squareup.picasso.Picasso
 
 

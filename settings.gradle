@@ -8,5 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Forscher_Mobile"
 include ':app'
-include ':app:forscher_mobile'
 include ':forscher_mobile'

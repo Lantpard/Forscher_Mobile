@@ -1,15 +1,15 @@
 package com.example.forscher_mobile.list
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.forscher_mobile.databinding.FragmentListBinding
-import com.example.model.Poi
-import com.example.model.PoiItemX
+import com.example.forscher_mobile.model.Poi
+import com.example.forscher_mobile.model.PoiItemX
 import com.google.gson.Gson
 
 
@@ -51,7 +51,7 @@ class ListFragment : Fragment() {
     }
 
     private fun onPoiClicked(poi: PoiItemX) {
-
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(poi = poi))
 
 
     }
