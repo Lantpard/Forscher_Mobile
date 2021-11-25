@@ -55,11 +55,6 @@ class ListPOIActivity : AppCompatActivity() {
         val gson = Gson()
         val data = gson.fromJson(poiString, Poi::class.java)
         return data
-
-
-
-
-
     }
 
     /*private fun createMockPoi() : ArrayList<Poi>{

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Forscher_Mobile</string>
+    <string name="casa_terracota">Casa Terracota</string>
+    <string name="informacion_general">Informacion General:</string>
+    <string name="descripcion">Es considerada la cerámica más grande del mundo. Se encuentra a las afuera de Villa de Leyva y esta hecha completamente de barro por el arquitecto Octavio Mendoza. Es una casa de 500 mtrs cuadrados en la cual se utilizaron 400 toneladas de barro y fue cocinada por zonas con un horno que el mismo arquitecto diseño para sellarla como si fuera un jarrón de barro.</string>
+    <string name="imagen">terracota</string>
+    <string name="museo_paleontologico">Museo Paleontologico</string>
+    <string name="description">Description</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
