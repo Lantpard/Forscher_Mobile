@@ -23,4 +23,5 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="notifications">Notificaciones</string>
     <string name="sound">Activar sonido de notificaciones</string>
+    <string name="preferences">Ajustes</string>
 </resources>

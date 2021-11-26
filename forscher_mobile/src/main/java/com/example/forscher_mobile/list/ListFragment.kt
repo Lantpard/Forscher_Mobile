@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.forscher_mobile.databinding.FragmentListBinding
+import com.example.forscher_mobile.main.MainActivity
 import com.example.forscher_mobile.model.Poi
 import com.example.forscher_mobile.model.PoiItemX
 import com.google.gson.Gson
@@ -18,6 +19,7 @@ class ListFragment : Fragment() {
     private lateinit var listBinding: FragmentListBinding
     private lateinit var listPoi: ArrayList<PoiItemX>
     private lateinit var poiAdapter: poiAdapter
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -30,6 +32,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.hideIcon()
         listPoi= loadMockPoiFromJson()
 
         poiAdapter = poiAdapter(listPoi, onItemClicked ={onPoiClicked(it)} )
