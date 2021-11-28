@@ -8,6 +8,7 @@
     "coordinates" : "5.6348681,-73.5368695",
     "temperature" : "14 °C",
     "recommendations" : "Ideal para los amantes de la arquitectura y el arte, también para llevar a los niños. \n\nUsar bloqueador, repelente de insectos y ropa fresca",
+    "urlLocal" :"@drawable/casa_terracota",
     "urlPicture" : "https://imagenescityexpress.scdn6.secure.raxcdn.com/sites/default/files/2018-04/casa-terracota-villa-leyva-bogota.jpg"
 },
 {
@@ -19,6 +20,7 @@
     "coordinates" : "5.6540175,-73.5896799",
     "temperature" : "22 °C",
     "recommendations" : "Realizar la cata de vinos,Tomar una botella de la cepa preferida acompañada de una tabla de quesos. \n\nLlevar menores de edad solo para la actividad de picnic ",
+    "urlLocal" :"@drawable/ain_karim",
     "urlPicture" : "https://i0.wp.com/revistadiners.com.co/wp-content/uploads/2021/09/vinedo_villa_de_leyva_.jpg"
 },
 {
@@ -30,6 +32,7 @@
     "coordinates" : "5.6223289,-73.5464753",
     "temperature" : "23 °C",
     "recommendations" : "Ir a todos los lugares y disfrutar de todas las actividades, apreciar los pozos y meterse con precaución, visitar el museo y el centro de investigaciones paleontológicas, la granja de avestruces y practicar alguno de los deportes \n\n Usar bloqueador y proteccion ocular",
+    "urlLocal" :"@drawable/desierto",
     "urlPicture" : "https://chipviajero.com/wp-content/uploads/2017/02/C%C3%B3mo-Llegar-A-Las-C%C3%A1rcavas-De-Villa-De-Leyva-Chip-Viajero-1.jpg"
 },
 {
@@ -41,6 +44,7 @@
     "coordinates" : "5.7192025,-73.5198302",
     "temperature" : "22 °C",
     "recommendations" : "Dejar los celulares y demás distracciones tecnológicas, procurar solo llevar cámara para capturar bellas imagenes de la zona. \n\nLlevar calzado apropiado para realizar caminatas, ser cuidadoso al caminar, no hacercarse a los riscos ",
+    "urlLocal" :"@drawable/periquera.jpg",
     "urlPicture" : "https://media-cdn.tripadvisor.com/media/photo-s/0e/91/a7/f8/the-view-of-la-periquera.jpg"
 },
 {
@@ -52,6 +56,7 @@
     "coordinates" : "5.6434753,-73.5186669",
     "temperature" : "20 °C",
     "recommendations" : "Poner mucha atención ya que se describe la gran riqueza paleontológica y por tanto histórica de Villa de Leyva. \n\nSer pacientes y silenciosos",
+    "urlLocal" :"@drawable/museo",
     "urlPicture" : "https://mibellavilla.com/wp-content/uploads/2018/10/paleontologico06-310x186.jpg"
 }
 ]

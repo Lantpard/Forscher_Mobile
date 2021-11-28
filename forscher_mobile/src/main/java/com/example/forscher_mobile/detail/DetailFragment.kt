@@ -41,8 +41,8 @@ class DetailFragment : Fragment() {
             coordinatesTextView.text=poi.coordinates
             temperatureTextView.text=poi.temperature
             recommendationsTextView.text=poi.recommendations
+            //Picasso.get().load(poi.urlLocal).into(pictureImageView)
             Picasso.get().load(poi.urlPicture).into(pictureImageView)
-
         }
 
     }

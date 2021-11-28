@@ -46,7 +46,9 @@ class poiAdapter (
             nameTextView.text=poi.name
             desciptionTextView.text=poi.description
             //rankingTextView.text=poi.ranking.toString()
+            //Picasso.get().load(poi.urlLocal).into(pictureImageView)
             Picasso.get().load(poi.urlPicture).into(pictureImageView)
+
             RatingBar.rating=poi.ranking
 
 

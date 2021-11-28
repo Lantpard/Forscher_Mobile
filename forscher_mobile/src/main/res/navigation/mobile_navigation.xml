@@ -29,5 +29,6 @@
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.forscher_mobile.preference.SettingsFragment"
-        android:label="SettingsFragment" />
+        android:label="SettingsFragment"
+        tools:layout= "@xml/root_preferences"/>
 </navigation>

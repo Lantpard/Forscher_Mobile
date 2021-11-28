@@ -13,6 +13,8 @@ data class PoiItemX(
     val ranking: Float,
     @SerializedName("urlPicture")
     val urlPicture: String,
+    @SerializedName("urlLocal")
+    val urlLocal: String,
     @SerializedName("general")
     val general: String,
     @SerializedName("location")
