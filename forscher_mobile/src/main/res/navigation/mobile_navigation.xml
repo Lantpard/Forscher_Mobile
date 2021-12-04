@@ -25,10 +25,18 @@
         <argument
             android:name="poi"
             app:argType="com.example.forscher_mobile.model.PoiItemX" />
+        <action
+            android:id="@+id/action_detailFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.forscher_mobile.preference.SettingsFragment"
         android:label="SettingsFragment"
         tools:layout= "@xml/root_preferences"/>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.forscher_mobile.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>

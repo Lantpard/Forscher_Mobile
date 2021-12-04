@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.forscher_mobile.databinding.FragmentDetailBinding
 import com.example.forscher_mobile.main.MainActivity
@@ -43,6 +44,10 @@ class DetailFragment : Fragment() {
             recommendationsTextView.text=poi.recommendations
             //Picasso.get().load(poi.urlLocal).into(pictureImageView)
             Picasso.get().load(poi.urlPicture).into(pictureImageView)
+
+            mapButton.setOnClickListener{
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+            }
         }
 
     }

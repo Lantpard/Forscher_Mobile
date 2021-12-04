@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
-            android:text="Ubicación:"
+            android:text="@string/ubicacion"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/general_text_view" />
 
@@ -165,6 +165,18 @@
             android:text="5.6540175,-73.5896799"
             app:layout_constraintStart_toEndOf="@+id/label_coordinates_text_view"
             app:layout_constraintTop_toBottomOf="@+id/location_text_view" />
+
+        <ImageButton
+            android:id="@+id/mapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/location_text_view"
+            app:srcCompat="@drawable/ic_map"
+            tools:ignore="SpeakableTextPresentCheck" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

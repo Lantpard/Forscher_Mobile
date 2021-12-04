@@ -24,4 +24,5 @@
     <string name="notifications">Notificaciones</string>
     <string name="sound">Activar sonido de notificaciones</string>
     <string name="preferences">Ajustes</string>
+    <string name="ubicacion">Ubicación:</string>
 </resources>
