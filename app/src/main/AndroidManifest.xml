@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Forscher_Mobile">
         <activity
-            android:name=".list.ListPOIActivity"
+            android:name="com.example.forscher_mobile.ui.list.ListPOIActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".detail.DetailActivity"
+            android:name="com.example.forscher_mobile.ui.detail.DetailActivity"
             android:exported="true">
         </activity>
     </application>

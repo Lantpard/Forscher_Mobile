@@ -1,4 +1,4 @@
-package com.example.forscher_mobile.list
+package com.example.forscher_mobile.ui.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -46,9 +46,7 @@ class poiAdapter (
             nameTextView.text=poi.name
             desciptionTextView.text=poi.description
             //rankingTextView.text=poi.ranking.toString()
-            //Picasso.get().load(poi.urlLocal).into(pictureImageView)
             Picasso.get().load(poi.urlPicture).into(pictureImageView)
-
             RatingBar.rating=poi.ranking
 
 

@@ -1,4 +1,4 @@
-package com.example.forscher_mobile.main
+package com.example.forscher_mobile.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.example.forscher_mobile.R
-import com.example.forscher_mobile.preference.SettingsFragment
+import com.example.forscher_mobile.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

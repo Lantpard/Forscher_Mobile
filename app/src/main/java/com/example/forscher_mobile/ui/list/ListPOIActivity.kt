@@ -1,4 +1,4 @@
-package com.example.forscher_mobile.list
+package com.example.forscher_mobile.ui.list
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.forscher_mobile.R
-import com.example.forscher_mobile.detail.DetailActivity
+import com.example.forscher_mobile.ui.detail.DetailActivity
 import com.example.forscher_mobile.model.Poi
 import com.example.forscher_mobile.model.PoiItemX
 import com.google.gson.Gson

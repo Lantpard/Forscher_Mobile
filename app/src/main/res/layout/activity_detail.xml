@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:context=".detail.DetailActivity">
+        tools:context="com.example.forscher_mobile.ui.detail.DetailActivity">
 
         <TextView
             android:id="@+id/label_location_text_view2"

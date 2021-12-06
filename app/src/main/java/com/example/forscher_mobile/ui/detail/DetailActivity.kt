@@ -1,12 +1,9 @@
-package com.example.forscher_mobile.detail
+package com.example.forscher_mobile.ui.detail
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import com.example.forscher_mobile.R
 import com.example.forscher_mobile.databinding.ActivityDetailBinding
 import com.example.forscher_mobile.model.PoiItemX
-import com.squareup.picasso.Picasso
 
 class DetailActivity : AppCompatActivity() {
 

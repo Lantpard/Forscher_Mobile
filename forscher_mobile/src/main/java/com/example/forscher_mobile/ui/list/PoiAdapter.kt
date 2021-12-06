@@ -1,9 +1,8 @@
-package com.example.forscher_mobile.list
+package com.example.forscher_mobile.ui.list
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
 import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.TextView
@@ -35,7 +34,11 @@ class poiAdapter (
 
     override fun getItemCount(): Int = poiList.size
 
-
+    fun appendItems(newItems:ArrayList<PoiItemX>){
+        this.poiList.clear()
+        this.poiList.addAll(newItems)
+        notifyDataSetChanged()
+    }
 
     class ViewHolder(itemview: View): RecyclerView.ViewHolder(itemview){
         private var nameTextView: TextView= itemview.findViewById(R.id.name_text_view)
@@ -47,7 +50,9 @@ class poiAdapter (
             nameTextView.text=poi.name
             desciptionTextView.text=poi.description
             //rankingTextView.text=poi.ranking.toString()
+            //Picasso.get().load(poi.urlLocal).into(pictureImageView)
             Picasso.get().load(poi.urlPicture).into(pictureImageView)
+
             RatingBar.rating=poi.ranking
 
 

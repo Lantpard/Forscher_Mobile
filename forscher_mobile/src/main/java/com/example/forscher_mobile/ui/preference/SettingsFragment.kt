@@ -1,11 +1,11 @@
-package com.example.forscher_mobile.preference
+package com.example.forscher_mobile.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.example.forscher_mobile.R
-import com.example.forscher_mobile.main.MainActivity
+import com.example.forscher_mobile.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 
