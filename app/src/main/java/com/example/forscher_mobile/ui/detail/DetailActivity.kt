@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.forscher_mobile.databinding.ActivityDetailBinding
 import com.example.forscher_mobile.model.PoiItemX
+import com.squareup.picasso.Picasso
 
 class DetailActivity : AppCompatActivity() {
 

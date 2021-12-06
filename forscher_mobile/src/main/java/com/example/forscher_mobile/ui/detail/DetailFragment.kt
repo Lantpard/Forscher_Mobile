@@ -8,8 +8,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.example.forscher_mobile.R
 import com.example.forscher_mobile.databinding.FragmentDetailBinding
+import com.example.forscher_mobile.maps.MapsFragment
 import com.example.forscher_mobile.ui.main.MainActivity
+import com.google.android.gms.maps.SupportMapFragment
 import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {
@@ -48,10 +51,14 @@ class DetailFragment : Fragment() {
             Picasso.get().load(poi.urlPicture).into(pictureImageView)
 
             mapButton.setOnClickListener{
-                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(poi=poi))
             }
         }
 
+        /*val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
+        mapFragment?.getMapAsync(callback)*/
+
     }
+
 
 }
