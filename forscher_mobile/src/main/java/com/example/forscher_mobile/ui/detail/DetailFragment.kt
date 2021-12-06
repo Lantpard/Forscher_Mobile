@@ -12,7 +12,12 @@ import com.example.forscher_mobile.R
 import com.example.forscher_mobile.databinding.FragmentDetailBinding
 import com.example.forscher_mobile.maps.MapsFragment
 import com.example.forscher_mobile.ui.main.MainActivity
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MarkerOptions
 import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {
@@ -20,6 +25,21 @@ class DetailFragment : Fragment() {
     private lateinit var detailBinding: FragmentDetailBinding
     private val detailViewModel: DetailViewModel by viewModels()
     private val args: DetailFragmentArgs by navArgs()
+
+    private val callback = OnMapReadyCallback { googleMap ->
+
+        val poi = args.poi
+        val poiLocations = LatLng(poi.latitude.toDouble(), poi.longitude.toDouble())
+        googleMap.clear()
+        googleMap.addMarker(
+            MarkerOptions()
+                .position(poiLocations)
+                .title(poi.name)
+                .snippet(poi.name)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)))
+
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(poiLocations,17F))
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,8 +75,8 @@ class DetailFragment : Fragment() {
             }
         }
 
-        /*val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
-        mapFragment?.getMapAsync(callback)*/
+        val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
+        mapFragment?.getMapAsync(callback)
 
     }
 
